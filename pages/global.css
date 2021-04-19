@@ -1,0 +1,59 @@
+html {
+  overflow-x: hidden;
+}
+
+main {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100vw;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+article {
+  width: 800px;
+}
+
+article h1 {
+  font-size: 24px;
+}
+
+article h2 {
+  font-size: 20px;
+}
+
+article p {
+  font-size: 14px;
+}
+
+article pre {
+  height: 400px;
+  overflow: auto;
+}
+
+section pre {
+  width: 600px;
+  overflow: auto;
+}
+
+.query-field {
+  display: flex;
+  flex: auto;
+}
+
+.query-field:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.query-field input,
+.query-field select {
+  margin-left: 8px;
+  display: flex;
+  flex: auto;
+}
